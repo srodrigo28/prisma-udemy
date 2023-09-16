@@ -1,4 +1,4 @@
-import prismaClient from "../prisma";
+import prismaClient from "../../prisma";
 
 interface UserRequest{
     name: string;
@@ -6,7 +6,7 @@ interface UserRequest{
     password: string;
 }
 
-class CreateUserService{
+class UserService{
     async execute( { name, email, password }: UserRequest ){
 
         // verificar se ele enviou um email
@@ -41,4 +41,4 @@ class CreateUserService{
     }
 }
 
-export { CreateUserService }
+export { UserService }
