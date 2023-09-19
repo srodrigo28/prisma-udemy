@@ -1,0 +1,7 @@
+{
+    "produtos": [
+        {"id": 1, "nome": "PS1", "valor": 100},
+        {"id": 2, "nome": "PS2", "valor": 200},
+        {"id": 3, "nome": "PS3", "valor": 300}
+    ]
+}

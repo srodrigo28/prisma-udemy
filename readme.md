@@ -8,6 +8,8 @@ https://www.udemy.com/course/dev-fullstack/learn/lecture/31683400#questions
 http://localhost:3333/users
 ```
 
+*
+
 ### Comandos Prisma
 
 ``` Criando tabelas
